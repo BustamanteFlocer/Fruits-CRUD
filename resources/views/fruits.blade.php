@@ -112,18 +112,12 @@ $(function(){
     });
 
     $('body').on('click','.deleteFruit',function(){
-  //      $.ajaxSetup({
-  //headers: {
-    //'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-  //}
-
+ 
         var fruit_id= $(this).data("id");
         confirm("Are you sure you want to delete?");
         $.ajax({
             type:"DELETE",
-          //  data : { 
-        //fruit_id: '{!! csrf_token() !!}'
-      //  },
+          
             url:"{{route('fruits.store')}}"+'/'+ fruit_id,
    
             success:function(data){
