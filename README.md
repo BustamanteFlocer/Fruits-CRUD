@@ -1,4 +1,4 @@
-This is laravel CRUD project for my IT111 course. 
+This is a laravel CRUD project for IT111 course by Flocer Angelo M. Bustamante and Jonas Rigor Docdoc
 
 The attached google drive link below is the video demo of my laravel CRUD project
 https://drive.google.com/file/d/1Y35A2uqWwdzMvkmC0Lc8zm_kssb4iErz/view?usp=sharing
